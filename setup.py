@@ -16,6 +16,7 @@ with open('README.md') as readme_file:
 
 def load_from(file_name):
     with open(file_name) as requirements:
+
         return requirements.read().split('\n')
 
 setup(
@@ -47,5 +48,7 @@ setup(
         'Programming Language :: Python :: 3.4',
     ],
     test_suite='tests',
-    tests_require=load_from("requirements_dev.txt")
+    extras_require={
+        "test": load_from("requirements_dev.txt"),
+    },
 )

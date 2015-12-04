@@ -8,3 +8,8 @@ test:
 	coverage run setup.py test
 
 upload: test
+
+	rm -rf dist/
+	rm -rf build/
+	python setup.py bdist_wheel
+	twine upload dist/* -I -U
