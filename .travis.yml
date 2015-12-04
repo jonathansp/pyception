@@ -6,4 +6,4 @@ python:
   - 3.4
   - tip
 
-install: "pip setup.py install"
+install: ""
