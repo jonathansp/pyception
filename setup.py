@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from pyexceptions import __author__ as author
-from pyexceptions import __email__ as email
-from pyexceptions import __version__ as version
-from pyexceptions import __project__ as project
+from pyception import __author__ as author
+from pyception import __email__ as email
+from pyception import __version__ as version
 
 try:
     from setuptools import setup
@@ -20,21 +19,21 @@ def load_from(file_name):
         return requirements.read().split('\n')
 
 setup(
-    name=project,
+    name='pyception',
     version=version,
     description="A more meaningful exception's collection for Python",
     long_description=readme,
     author=author,
     author_email=email,
-    url='https://github.com/jonathansp/py-exceptions',
+    url='https://github.com/jonathansp/pyception',
     packages=[
-        'pyexceptions',
+        'pyception',
     ],
     package_dir={
-        'pyexceptions': 'pyexceptions'
+        'pyception': 'pyception'
     },
     include_package_data=True,
-    install_requires=[],
+    install_requires=load_from("requirements.txt"),
     license="LGPLv3",
     zip_safe=False,
     keywords='exceptions',

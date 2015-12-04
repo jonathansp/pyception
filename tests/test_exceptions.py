@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from pyexceptions import *
+from pyception import *
 
 class TestExceptions(object):
 

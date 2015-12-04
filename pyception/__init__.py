@@ -5,7 +5,7 @@
 __author__ = 'Jonathan Simon Prates'
 __email__ = 'jonathan.simonprates@gmail.com'
 __version__ = '0.1.0'
-__project__ = 'exceptions'
+__project__ = 'pyception'
 
-from pyexceptions.system import *  # noqa
-from pyexceptions.configuration import *  # noqa
+from pyception.system import *  # noqa
+from pyception.configuration import *  # noqa
