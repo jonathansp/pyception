@@ -34,7 +34,7 @@ setup(
         'pyexceptions': 'pyexceptions'
     },
     include_package_data=True,
-    install_requires=load_from("requirements.txt"),
+    install_requires=[],
     license="LGPLv3",
     zip_safe=False,
     keywords='exceptions',
