@@ -1,7 +1,11 @@
 # -*- encoding: utf-8 -*-
 
+import sys
 
-class ConfigurationException(Exception):
+from pyception.wrapper import PyceptionModule
 
-    """ ConfigurationException"""
-    pass
+EXCEPTIONS = {
+    'ConfigurationException': (ValueError, 'This exception is thrown when there is a configuration issue.')
+}
+
+sys.modules[__name__] = PyceptionModule(__name__, EXCEPTIONS)
