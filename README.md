@@ -1,4 +1,4 @@
-# pyception [![Build Status](https://travis-ci.org/jonathansp/pyception.svg?branch=master)](https://travis-ci.org/jonathansp/pyception)
+# pyception [![Build Status](https://travis-ci.org/jonathansp/pyception.svg?branch=master)](https://travis-ci.org/jonathansp/pyception) [![PyPI version](https://badge.fury.io/py/pyception.svg)](https://badge.fury.io/py/pyception)
 A more meaningful exception's collection for Python
 
 * simple and lightweight library
