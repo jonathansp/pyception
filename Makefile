@@ -5,7 +5,8 @@ install:
 	pip install -r requirements_dev.txt
 
 test:
-	coverage run setup.py test
+	coverage run --source pyception setup.py test
+	coverage report -m
 
 upload: test
 
