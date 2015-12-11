@@ -38,15 +38,15 @@ class PyceptionModuleTest(unittest.TestCase):
 
     def test_import___all__(self):
 
-        self.assertEquals(
+        self.assertEqual(
             len(pyception.data.__all__),
             len(pyception.data.exceptions.keys())
         )
 
     def test___name__(self):
 
-        self.assertEquals('pyception.data', pyception.data.__name__)
-        self.assertEquals('pyception.io', pyception.io.__name__)
+        self.assertEqual('pyception.data', pyception.data.__name__)
+        self.assertEqual('pyception.io', pyception.io.__name__)
 
     def test_if_raises_attribute_error_when_a_class_does_not_exists(self):
 
