@@ -13,4 +13,4 @@ upload: test
 	rm -rf dist/
 	rm -rf build/
 	python setup.py bdist_wheel
-	twine upload dist/* -I -U
+	twine upload dist/* -u $TWINE_USER -p "$TWINE_PWD"
