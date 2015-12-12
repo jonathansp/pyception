@@ -3,7 +3,7 @@
 A more meaningful exception's collection for Python
 
 * simple and lightweight library
-* inspired on frameworks and languages such as .NET, javasdk, ruby, php etc.
+* inspired by frameworks and languages such as .NET, javasdk, ruby, php etc.
 
 Feel free to open a pull request! (Please, use [Jeremy Mack's](http://seesparkbox.com/foundry/semantic_commit_messages) commit style.)
 
