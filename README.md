@@ -23,6 +23,7 @@ Namespaces:
 ``` python
 import pyception.application
 import pyception.configuration
+import pyception.collection
 import pyception.data
 import pyception.io
 import pyception.networking
